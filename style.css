@@ -75,20 +75,9 @@ body{ width:1000px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	position:relative;
+	border-radius: 20px;
 }
-.content_top:after{
-	content: '';
-	position:relative;
-	width: 0;
-	height: 0;
-	border:20px solid #FFF;
-	border-top: 0 solid rgba(0, 0, 0, 0)!important;
-	border-right: 15px solid rgba(0, 0, 0, 0)!important;
-	border-left: 15px solid rgba(0, 0, 0, 0)!important;
-	left:0%;
-	top: 30px;
-	margin-left: -10px;
-}
+
 .content_top h1 a{
 	font-size:3em;
 	color: #fff;
@@ -118,11 +107,23 @@ body{ width:1000px;
 }
 .content-grids {
 	padding:50px 0;
-	background:#FFF;
+	background: #ffffff;
 }
+.grid3{
+	float: left;
+	width: 50%;
+	background: #b7b3b3;
+	border: 1px solid #ffffff;
+	padding: 19px 18px 25px;
+	color: #000000;
+	text-align: center;
+	margin-right: 2%;
+
+}
+
 .grid{
 	float: left;
-	width: 29%;
+	width: 27%;
 	background: #fff;
 	border: 1px solid #EBEBEB;
 	padding: 19px 18px 25px;
@@ -164,8 +165,8 @@ body{ width:1000px;
 .button:hover{
 	background-color: #222;
 }
-.last-grid{ width:280px; height:455px;
-	margin:0px; position:absolute; margin-left:630px;
+.last-grid{ width:280px; height:475px;
+	margin:0px; position:absolute; margin-left:700px;
 }
 /*-----specials-heading----*/
 .specials{
